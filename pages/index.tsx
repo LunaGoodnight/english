@@ -2,7 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
-import Link from "next/link";
+
+import { Header } from "../common/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,17 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.header}>
-          <div>English</div>
-          <nav className={styles.nav}>
-            <ul>
-              <li>
-                <Link href="/sites">Sites</Link>
-              </li>
-              <li>Youtube</li>
-            </ul>
-          </nav>
-        </div>
+        <Header />
         <div className={styles.description}>
           <div>
             <a
