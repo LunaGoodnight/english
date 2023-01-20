@@ -8,7 +8,7 @@ export const Header = () => {
       <nav className={styles.nav}>
         <ul>
           <li>
-            <Link href="/sites/index">Sites</Link>
+            <Link href="/sites">Sites</Link>
           </li>
           <li>
             <Link href="/youtube">Youtube</Link>
