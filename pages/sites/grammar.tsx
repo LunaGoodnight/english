@@ -1,12 +1,12 @@
 import React from "react";
 import { Header } from "../../common/Header";
-import { SiteNav } from "../../common/SiteNav";
+import { SiteNavigation } from "../../common/SiteNavigation";
 
 export const grammar = () => {
   return (
     <div>
       <Header />
-      <SiteNav />
+      <SiteNavigation />
     </div>
   );
 };
