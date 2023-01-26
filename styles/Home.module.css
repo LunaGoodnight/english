@@ -29,6 +29,11 @@
     background: aliceblue;
 }
 
+.siteNavigation {
+
+    width: 20%;
+    padding: 1rem;
+}
 .logo{
   font-weight: bold;
 }
