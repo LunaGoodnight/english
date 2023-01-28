@@ -17,9 +17,7 @@ export const sites = () => {
           const { title, link } = x;
           return (
             <li key={i}>
-              <a href={link}></a>
-
-              {title}
+              <a href={link}>{title}</a>
             </li>
           );
         })}
