@@ -4,5 +4,3 @@ export const SiteContent = styled.div`
   display: flex;
   width: 100%;
 `;
-
-export default {};

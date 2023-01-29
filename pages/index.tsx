@@ -18,6 +18,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Header />
+
         <div className={styles.description}>
           <div>
             <a
@@ -57,8 +58,6 @@ export default function Home() {
             />
           </div>
         </div>
-
-
       </main>
     </>
   );
