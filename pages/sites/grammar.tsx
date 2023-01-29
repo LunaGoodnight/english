@@ -1,12 +1,8 @@
 import React from "react";
 import { Header } from "../../common/Header";
 import { SiteNavigation } from "../../common/SiteNavigation";
-import styled from "styled-components";
+import { SiteContent } from "../../styles/common";
 
-const SiteContent = styled.div`
-  display: flex;
-  width: 100%;
-`;
 export const grammar = () => {
   return (
     <div>
