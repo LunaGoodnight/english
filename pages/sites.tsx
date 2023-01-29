@@ -18,14 +18,14 @@ export const sites = () => {
   return (
     <div>
       <Header />
-      <SiteContent>
+      <div className="flex">
         <SiteNavigation />
         <SiteListWrapper>
           {siteList.map((x, i) => {
             const { title, link, image } = x;
             return (
               <li key={i}>
-                <ImageWrapper>
+                <div className="flex">
                   <Image
                     src={image}
                     alt={title}
@@ -33,14 +33,15 @@ export const sites = () => {
                     height={219}
                     priority
                   />
-                </ImageWrapper>
-
-                <a href={link}>{title}</a>
+                </div>
+                <div>
+                  <a href={link}>{title}</a>
+                </div>
               </li>
             );
           })}
         </SiteListWrapper>
-      </SiteContent>
+      </div>
     </div>
   );
 };
