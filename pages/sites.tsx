@@ -1,10 +1,8 @@
 import styled from "styled-components";
 import { SiteNavigation } from "../common/SiteNavigation";
 import { siteList } from "../configs/siteList";
-import { SiteContent } from "../styles/common";
 import { Header } from "../common/Header";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 
 const SiteListWrapper = styled.ul`
   width: 80%;

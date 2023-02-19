@@ -7,6 +7,19 @@ import { Header } from "../common/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const quickDictionaries = [
+  {
+    title: "Cambridge",
+    link: "https://dictionary.cambridge.org/dictionary/english-chinese-traditional/",
+  },
+];
+const quickTranslate = [
+  {
+    title: "Reverso",
+    link: "https://www.reverso.net/text-translation",
+  },
+];
+
 export default function Home() {
   return (
     <>
