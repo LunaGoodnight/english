@@ -6,6 +6,9 @@ import Image from "next/image";
 
 const SiteListWrapper = styled.ul`
   width: 80%;
+  li {
+    display: flex;
+  }
 `;
 
 export const ImageWrapper = styled.div`
@@ -18,12 +21,12 @@ export const sites = () => {
       <Header />
       <div className="flex">
         <SiteNavigation />
-        <SiteListWrapper>
+        <SiteListWrapper className="bg-amber-200 w-full">
           {siteList.map((x, i) => {
             const { title, link, image } = x;
             return (
-              <li key={i}>
-                <div className="flex">
+              <li key={i} className="p-8">
+                <div className="flex w-48">
                   <Image
                     src={image}
                     alt={title}

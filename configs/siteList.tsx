@@ -1,4 +1,6 @@
 import byjus from "../public/images/byjus.webp";
+import Kekenet from "../public/images/kekebaby.webp";
+import EnglishClub from "../public/images/englishclub.webp";
 
 export const siteList = [
   {
@@ -9,6 +11,11 @@ export const siteList = [
   {
     title: "EnglishClub",
     link: "https://www.englishclub.com/grammar/",
-    image: "/images/byjus.webp",
+    image: EnglishClub,
+  },
+  {
+    title: "可可英语",
+    link: "http://kekenet.com/",
+    image: Kekenet,
   },
 ];
