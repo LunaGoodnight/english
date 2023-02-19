@@ -1,20 +1,14 @@
-import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
 export const Header = () => {
   return (
-    <div className={styles.header}>
-      <div>English</div>
-      <nav className={styles.navigationSection}>
-        <ul className={styles.navigationList}>
-          <li className={styles.navigationItem}>
+    <div className="w-full flex justify-center bg-blue-300 px-8 py-5">
+      <div className="w-1/6">English</div>
+      <nav className="w-5/6">
+        <ul>
+          <li>
             <Link href="/sites">Sites</Link>
           </li>
-          <li>
-            <Link href="/youtube">Youtube</Link>
-          </li>
-
-
         </ul>
       </nav>
     </div>
