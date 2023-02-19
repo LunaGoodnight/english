@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import { SiteNavigation } from "../common/SiteNavigation";
 import { siteList } from "../configs/siteList";
 import { Header } from "../common/Header";
