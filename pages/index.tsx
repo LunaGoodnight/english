@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>English</title>
+        <title>English Learning Resources - Index</title>
         <meta name="description" content="Path to learn English" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
