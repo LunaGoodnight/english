@@ -1,5 +1,9 @@
 import byjus from "../public/images/byjus.webp";
+import EnglishClub from "../public/images/englishclub.webp";
 
+export const tagList = {
+  grammar: "grammar",
+};
 export const grammarList = [
   {
     title: "BYJU’S Learning",
@@ -9,6 +13,7 @@ export const grammarList = [
   {
     title: "EnglishClub",
     link: "https://www.englishclub.com/grammar/",
-    image: byjus,
+    image: EnglishClub,
+    tags: [tagList.grammar],
   },
 ];
