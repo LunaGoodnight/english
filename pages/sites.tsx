@@ -18,13 +18,13 @@ export const sites = () => {
         <Header />
         <div className="flex">
           <SiteNavigation />
-          <ul className="w-1/5 w-full">
+          <ul className="w-1/5 w-full h-full overflow-y-scroll">
             {siteList.map((x, i) => {
               const { title, link, image } = x;
               return (
-                <li key={link} className="p-8 hover:bg-blue-100">
+                <li key={link} className="p-6 hover:bg-blue-100">
                   <Link className="w-full flex" href={link} target="_blank">
-                    <div className="flex w-48">
+                    <div className="flex w-32">
                       <Image
                         src={image}
                         alt={title}
