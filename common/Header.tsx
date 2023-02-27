@@ -2,17 +2,20 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <div className="w-full flex justify-center bg-blue-300 px-8 py-5">
+    <div className="w-full flex justify-center px-8 py-5">
       <Link href="/" className="w-1/6">
         English
       </Link>
       <nav className="w-5/6">
-        <ul>
+        <ul className="w-full flex gap-5 justify-end">
           <li>
             <Link href="/sites">Sites</Link>
           </li>
           <li>
-            <Link href="/quiz">Sites</Link>
+            <Link href="/quiz">Quiz</Link>
+          </li>
+          <li>
+            <Link href="/reading">Reading</Link>
           </li>
         </ul>
       </nav>
