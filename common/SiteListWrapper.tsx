@@ -1,7 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Site } from "../configs/siteList";
 
-export const SiteListWrapper = ({ list }) => {
+interface Props {
+  list: Site[];
+}
+
+export const SiteListWrapper = ({ list }: Props) => {
   return (
     <ul className="w-1/5 w-full h-full overflow-y-scroll">
       {list.map((x) => {

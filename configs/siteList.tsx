@@ -1,10 +1,18 @@
-import byjus from "../public/images/byjus.webp";
+import LearnThatWord from "../public/images/learnthat.webp";
 import Kekenet from "../public/images/kekebaby.webp";
 import TextRanch from "../public/images/textranch.webp";
 import EnglishClub from "../public/images/englishclub.webp";
 import Grammar from "../public/images/grammar.webp";
+import byjus from "../public/images/byjus.webp";
 
 import { tagList } from "./grammarList";
+
+export interface Site {
+  title: string;
+  link: string;
+  image: string;
+  tags: string[];
+}
 
 export const siteList = [
   {
@@ -36,5 +44,11 @@ export const siteList = [
     image: TextRanch,
     description:
       "Online editing with great prices, great service, great quality!",
+  },
+  {
+    title: "LearnThatWord",
+    link: "https://www.learnthat.org/",
+    image: LearnThatWord,
+    description: "Your Life, Powered by Words!",
   },
 ];
