@@ -6,11 +6,12 @@ import Grammar from "../public/images/grammar.webp";
 import byjus from "../public/images/byjus.webp";
 
 import { tagList } from "./grammarList";
+import { StaticImageData } from "next/image";
 
 export interface Site {
   title: string;
   link: string;
-  image: string;
+  image: StaticImageData;
   tags: string[];
 }
 
@@ -37,6 +38,7 @@ export const siteList = [
     title: "可可英语",
     link: "http://kekenet.com/",
     image: Kekenet,
+    tags: [],
   },
   {
     title: "TextRanch",
@@ -44,11 +46,13 @@ export const siteList = [
     image: TextRanch,
     description:
       "Online editing with great prices, great service, great quality!",
+    tags: [],
   },
   {
     title: "LearnThatWord",
     link: "https://www.learnthat.org/",
     image: LearnThatWord,
     description: "Your Life, Powered by Words!",
+    tags: [],
   },
 ];

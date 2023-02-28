@@ -18,6 +18,7 @@ export const sites = () => {
         <Header />
         <div className="flex">
           <SiteNavigation />
+
           <ul className="w-1/5 w-full h-full overflow-y-scroll">
             {siteList.map((x, i) => {
               const { title, link, image } = x;
