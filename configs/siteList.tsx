@@ -25,7 +25,7 @@ export const siteList = [
   {
     title: "BYJU’S Learning",
     link: "https://byjus.com/english/english-grammar/",
-    image: "/images/byjus.webp",
+    image: byjus,
     tags: [tagList.grammar],
   },
   {
