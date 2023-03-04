@@ -13,6 +13,9 @@ export const Header = () => {
               <Link href="/sites">Sites</Link>
             </li>
             <li>
+              <Link href="/youtube">Youtube</Link>
+            </li>
+            <li>
               <Link href="/quiz">Quiz</Link>
             </li>
             <li>
