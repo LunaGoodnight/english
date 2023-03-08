@@ -1,3 +1,4 @@
+import EnglishSpeeches from "../public/images/EnglishSpeeches.webp";
 import FreedominThought from "../public/images/freedominThought.webp";
 import Kurzgesagt from "../public/images/kurzgesagt.webp";
 import BetterThanYesterday from "../public/images/betterThanYesterday.webp";
@@ -26,6 +27,12 @@ export const youtubeList = [
     title: "Freedom in Thought",
     link: "https://www.youtube.com/@FreedominThought",
     image: FreedominThought,
+    tags: [],
+  },
+  {
+    title: "English Speeches",
+    link: "https://www.youtube.com/@EnglishSpeeches",
+    image: EnglishSpeeches,
     tags: [],
   },
 ];
