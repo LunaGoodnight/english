@@ -3,6 +3,7 @@ import FreedominThought from "../public/images/freedominThought.webp";
 import Kurzgesagt from "../public/images/kurzgesagt.webp";
 import BetterThanYesterday from "../public/images/betterThanYesterday.webp";
 import CrashCourse from "../public/images/crashcourse.webp";
+import TEDEd from "../public/images/TEDEd.webp";
 
 export const youtubeList = [
   {
@@ -33,6 +34,12 @@ export const youtubeList = [
     title: "English Speeches",
     link: "https://www.youtube.com/@EnglishSpeeches",
     image: EnglishSpeeches,
+    tags: [],
+  },
+  {
+    title: "TED-Ed",
+    link: "https://www.youtube.com/@TEDEd",
+    image: TEDEd,
     tags: [],
   },
 ];
