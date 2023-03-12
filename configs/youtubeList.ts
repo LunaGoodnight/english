@@ -1,3 +1,4 @@
+import LewisHowes from "../public/images/lewishowes.webp";
 import EnglishSpeeches from "../public/images/EnglishSpeeches.webp";
 import FreedominThought from "../public/images/freedominThought.webp";
 import Kurzgesagt from "../public/images/kurzgesagt.webp";
@@ -28,6 +29,12 @@ export const youtubeList = [
     title: "Freedom in Thought",
     link: "https://www.youtube.com/@FreedominThought",
     image: FreedominThought,
+    tags: [],
+  },
+  {
+    title: "Lewis Howes",
+    link: "https://www.youtube.com/@lewishowes",
+    image: LewisHowes,
     tags: [],
   },
   {
