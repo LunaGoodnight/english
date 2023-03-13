@@ -1,3 +1,4 @@
+import BigThink from "../public/images/bigthink.webp";
 import LewisHowes from "../public/images/lewishowes.webp";
 import EnglishSpeeches from "../public/images/EnglishSpeeches.webp";
 import FreedominThought from "../public/images/freedominThought.webp";
@@ -47,6 +48,12 @@ export const youtubeList = [
     title: "TED-Ed",
     link: "https://www.youtube.com/@TEDEd",
     image: TEDEd,
+    tags: [],
+  },
+  {
+    title: "Big Think",
+    link: "https://www.youtube.com/@bigthink",
+    image: BigThink,
     tags: [],
   },
 ];
