@@ -6,8 +6,15 @@ import Kurzgesagt from "../public/images/kurzgesagt.webp";
 import BetterThanYesterday from "../public/images/betterThanYesterday.webp";
 import CrashCourse from "../public/images/crashcourse.webp";
 import TEDEd from "../public/images/TEDEd.webp";
+import KaraRonin from "../public/images/kararonin.webp";
 
 export const youtubeList = [
+  {
+    title: "Kara Ronin",
+    link: "https://www.youtube.com/@kararonin",
+    image: KaraRonin,
+    tags: [],
+  },
   {
     title: "Kurzgesagt",
     link: "https://www.youtube.com/@kurzgesagt",
