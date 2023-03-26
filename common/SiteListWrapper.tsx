@@ -8,7 +8,7 @@ interface Props {
 
 export const SiteListWrapper = ({ list }: Props) => {
   return (
-    <ul className="w-4/5 w-full h-full overflow-y-scroll">
+    <ul className="w-4/5 w-full h-full overflow-y-scroll max-h-[54rem]">
       {list.map((x) => {
         const { title, link, image } = x;
         return (
